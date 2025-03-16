@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+/dist/
+/build/
+/out/
+/.next/
+/.nuxt/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Testing
+/coverage/
+/.nyc_output/
+
+# IDEs and editors
+/.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# MongoDB data directory (if using local MongoDB)
+/data/db/
+
+# Docker volumes
+mongodb_data/
+
+# Frontend specific
+/frontend/dist/
+/frontend/build/
+/frontend/node_modules/
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Backend specific
+/backend/dist/
+/backend/node_modules/
+/backend/.env
+/backend/.env.local
+/backend/.env.development.local
+/backend/.env.test.local
+/backend/.env.production.local
+
+# Misc
+.cache/
+.temp/
+.tmp/
+*.swp
+*.swo
